@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link>
+		<meta charset="utf-8">
+		<title>HS 3D</title>
+		<link
+		href="https://fonts.googleapis.com/css?family=Ubuntu"
+		rel="stylesheet" 
+		/>
+	</head>
+	<body>
+		
+		<canvas class ="webgl"></canvas>
+		
+		<nav>
+			<select name="Gebäudeauswahl" id="Gebäudeauswahl">
+				<option value="m1" id="m1">Gesamtansicht</option>
+				<option value="m2" id="m2">Haus C</option>
+				<option value="m3" id="m3">Haus S</option>
+				<option value="m4" id="m4">Haus T</option>
+				<option value="m5" id="m5">Haus L</option>
+				<option value="m6" id="m6">Haus K</option>
+				<option value="m7" id="m7">Haus V</option>
+				<option value="m8" id="m8">Haus Z</option>
+				<option value="m9" id="m9">Haus M</option>
+			</select>
+		</nav>
+		
+		<canvas class ="webgl2"></canvas>
+		
+		<div id="infobox" class="infobox-hidden">
+			<h2 id="infobox-title"></h2>
+			<div id="infobox-content"></div>
+		</div>
+
+		<script type="module" src="/main.js"></script>
+		
+	</body>
+</html>
